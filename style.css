@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Content section */
+.content {
+  border: 2px solid white;
+  height: 800px;
+}
+
+/* Sections */
+.one {
+  background-color: crimson;
+  height: 1000px;
+}
+
+.two {
+  background-color: darkslategray;
+  height: 1000px;
+}
+
+.three {
+  background-color: lavender;
+  height: 1000px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+  position: fixed;
+  width: 100%;
+  height: 180px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+header nav {
+  display: flex;
+  gap: 120px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  color: white;
+  font-size: larger;
+}
+
+/* Background images */
+.m-stad {
+  background-image: url("./Images/Mercedes Benz Stadium.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.a-stad {
+  background-image: url("./Images/AT&T Stadium.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.g-stad {
+  background-image: url("./Images/Allegiant Stadium.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.m-position {
+  position: absolute;
+  color: white;
+  color: white;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 700px;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.att-position {
+  position: absolute;
+  color: white;
+  color: white;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 700px;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.gee-position {
+  position: absolute;
+  color: white;
+  color: white;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 700px;
+  font-weight: bolder;
+  font-size: large;
+}
+#copyright {
+  width: 100%;
+  max-width: 1900px;
+  height: 50px;
+  border: 2px solid black;
+  background-color: black;
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
