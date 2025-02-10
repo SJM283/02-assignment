@@ -31,6 +31,11 @@ body {
   height: 1000px;
 }
 
+.four {
+  background-color: lavender;
+  height: 1000px;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -52,21 +57,28 @@ header nav {
 
 /* Background images */
 .m-stad {
-  background-image: url("./Images/Mercedes Benz Stadium.jpg");
+  background-image: url("./images/Mercedes-Benz-Stadium.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .a-stad {
-  background-image: url("./Images/AT&T Stadium.jpg");
+  background-image: url("./images/AT&T-Stadium.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .g-stad {
-  background-image: url("./Images/Allegiant Stadium.jpg");
+  background-image: url("./images/Allegiant-Stadium.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.c-stad {
+  background-image: url("./images/caesars-superdome.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -107,6 +119,19 @@ header nav {
   font-weight: bolder;
   font-size: large;
 }
+
+.c-position {
+  position: absolute;
+  color: white;
+  color: white;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 700px;
+  font-weight: bolder;
+  font-size: large;
+}
+
 #copyright {
   width: 100%;
   max-width: 1900px;
@@ -120,5 +145,5 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: red;
+  color: gold;
 }
